@@ -29,7 +29,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_route53_zones"></a> [route53\_zones](#input\_route53\_zones) | route53 zones | <pre>list(object({<br>    name              = string<br>    type              = string<br>    force_destroy     = bool<br>    vpc_id            = string<br>    tags              = map(string)<br>    dns_records = list(object({<br>      domain_name = string<br>      record_type = string<br>      ttl         = number<br>      records     = list(string)<br>    }))<br>  }))</pre> | n/a | yes |
+| <a name="input_route53_zones"></a> [route53\_zones](#input\_route53\_zones) | route53 zones | <pre>list(object({<br>    name          = string<br>    type          = string<br>    force_destroy = bool<br>    vpc_id        = string<br>    tags          = map(string)<br>    dns_records = list(object({<br>      domain_name = string<br>      record_type = string<br>      ttl         = number<br>      records     = list(string)<br>    }))<br>  }))</pre> | n/a | yes |
 
 ## Outputs
 
