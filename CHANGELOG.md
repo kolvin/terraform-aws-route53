@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/kolvin/terraform-aws-route53/compare/v1.0.0...v1.1.0) (2022-12-21)
+
+
+### Features
+
+* **route53:** add resoource block to support creating route53 hosted zone dns records. ([9bb8915](https://github.com/kolvin/terraform-aws-route53/commit/9bb891583f2b3338cfeef39ee271de08248f6390))
+
 # 1.0.0 (2022-12-14)
 
 
