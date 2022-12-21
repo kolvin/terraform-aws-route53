@@ -23,7 +23,8 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [aws_route53_zone.route53_zone](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_zone) | resource |
+| [aws_route53_record.route53_records](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_record) | resource |
+| [aws_route53_zone.route53_zones](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_zone) | resource |
 
 ## Inputs
 
@@ -35,5 +36,6 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_hosted_zones"></a> [hosted\_zones](#output\_hosted\_zones) | n/a |
+| <a name="output_hosted_zones"></a> [hosted\_zones](#output\_hosted\_zones) | Collection of all route53 zones and child attributes |
+| <a name="output_hosted_zones_records"></a> [hosted\_zones\_records](#output\_hosted\_zones\_records) | Collection of all route53 zones DNS records |
 <!-- END_TF_DOCS -->
