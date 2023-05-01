@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/kolvin/terraform-aws-route53/compare/v1.1.0...v1.1.1) (2023-05-01)
+
+
+### Bug Fixes
+
+* **ci:** set permissions for automated release token ([d8e4406](https://github.com/kolvin/terraform-aws-route53/commit/d8e44068212ed74cf9fa1a8e6f8921b8544e2d6c))
+
 # [1.1.0](https://github.com/kolvin/terraform-aws-route53/compare/v1.0.0...v1.1.0) (2022-12-21)
 
 
