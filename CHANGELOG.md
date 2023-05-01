@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/kolvin/terraform-aws-route53/compare/v1.1.1...v1.1.2) (2023-05-01)
+
+
+### Bug Fixes
+
+* **ci:** set git ref to main for automated release ([8dc180b](https://github.com/kolvin/terraform-aws-route53/commit/8dc180b5baae97aa0e8cb7ac2648667b5433609c))
+
 ## [1.1.1](https://github.com/kolvin/terraform-aws-route53/compare/v1.1.0...v1.1.1) (2023-05-01)
 
 
